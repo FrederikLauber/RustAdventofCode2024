@@ -71,6 +71,10 @@ path = "src/10/second.rs"
 name = "11"
 path = "src/11/main.rs"
 
+[[bin]]
+name = "12"
+path = "src/12/main.rs"
+
 [dependencies]
 regex = "1.11.1"
 itertools = "0.13.0"

@@ -3,7 +3,6 @@ use std::ops::Add;
 
 fn main(){
     let data = include_str!("input");
-
     let mut stones: HashMap<u128, u64> = HashMap::new();
 
     for num_str in data.split(" "){
